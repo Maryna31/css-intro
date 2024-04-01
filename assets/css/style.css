@@ -1,6 +1,19 @@
+body {
+    font-family: sans-serif;
+    border: 5px red solid;
+    text-align: center;
+    color: darkgray;
+}
 /* Селектор тега (типа), общие элементы - 0001 */
 h1 {
     color: blue;
+    font-family: initial; /*выключает наслетственность*/
+    border: inherit; /*включает наследственнось*/
+}
+
+a {
+    color: inherit;
+    text-decoration: none; /*выключить на ссылках нижнее подчеркивание*/
 }
 
 /* Селектор класса - 0010 */
