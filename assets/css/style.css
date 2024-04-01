@@ -1,4 +1,22 @@
-/* Внешние стили */
+/* Селектор тега (типа), общие элементы - 0001 */
 h1 {
     color: blue;
 }
+
+/* Селектор класса - 0010 */
+.annotation {
+    font-size: 10px;
+}
+
+/* Селектор идентификатора б чаще для JavaSkript не для стилей - 0100*/
+#subscribe-btn {
+    color: red !important; 
+}
+/* Исключения отмечаются !important - но лучше не использовать, очень плохая практика */
+
+/* subscribe-brn : cebab-case
+subscribeBtn :     camelCase
+                    lowerCamelCase
+                     UpperCamelCase (PascalCase)
+subscribe_btn : snake_case 
+*/
